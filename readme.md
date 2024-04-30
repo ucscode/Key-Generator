@@ -79,7 +79,7 @@ $keyGenerator->removeCharacters('@');
 /**
  * Apply usage of the system default special characters
  * 
- * By default, if not configuration is made, the key generator will only contain alpha numeric outputs
+ * By default, if no configuration is made, the key generator will only contain alpha numeric outputs
  * 
  * @param bool
  */
