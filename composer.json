@@ -1,6 +1,7 @@
 {
     "name": "ucscode/keygenerator",
     "description": "(Ucscode) KeyGenerator is a versatile PHP library for generating random keys of varying lengths. It is an essential tool for creating secure authentication tokens, unique identifiers, or random access keys.",
+    "license": "MIT",
     "require": {
         "php": ">=8.1"
     },
