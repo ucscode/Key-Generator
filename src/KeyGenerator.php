@@ -2,7 +2,7 @@
 
 namespace Ucscode\KeyGenerator;
 
-class KeyGeneration
+class KeyGenerator
 {
     protected const SPECIAL_CHARS = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '[', ']', '{', '}', '/', ':', '.', ';', '|', '>', '~', '_', '-'];
 
