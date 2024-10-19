@@ -39,6 +39,11 @@ $keyGenerator = new KeyGenerator();
 
 // Generate a random key of length 10
 $key = $keyGenerator->generateKey(10);
+
+// Generate a random key with prefix and suffix
+$key = $keyGenerator->generateKey(5, 'app-', '-volvo');
+
+echo $key; // app-SNb9P-volvo
 ```
 
 ### Instance Configuration
@@ -68,7 +73,7 @@ $keyGenerator->setCharacters('ABCDEFGHIJKLMNOPQRSTUVWXYZ');
 $keyGenerator->addCharacters(['#', '@', '%']);
 
 /**
- * Remove one or more possible character from the list
+ * Remove one or more character from the list
  * 
  * The "@" symbol will not be part of possible value from the characters
  * 
